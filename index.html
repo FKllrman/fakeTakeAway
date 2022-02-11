@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fake Take-Away</title>
+    <link rel="stylesheet" href="readmeImg/reset.css">
+    <link rel="stylesheet" href="css/globalStyles.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- CSS für AOS (Animate On Scroll) Library-->
+</head>
+<body>
+    <!-- Nav Section -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="Logo">
+                </a>
+                <nav>
+                    <div class="nav-icon"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="3" y1="12" x2="21" y2="12" /> <line x1="3" y1="6" x2="21" y2="6" /> <line x1="3" y1="18" x2="21" y2="18" /> </svg> <!-- Code für dieses Hamburger Icon wurde über feathtericons und dann über deren Github heruntergeladen-->
+                    </div>
+                    <div class="nav-bgOverlay"></div>
+                    <ol class="nav-list">
+                        <div class="nav-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="18" y1="6" x2="6" y2="18" /> <line x1="6" y1="6" x2="18" y2="18" /> </svg> <!-- Code für diese Hamburger Icon wurde über feathtericons und dann über deren Github heruntergeladen-->
+                        </div>
+                        <div class="nav-list-wrapper">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="html/menu.html" class="nav-link">Menu</a></li>
+                            <li><a href="html/about.html" class="nav-link">About</a></li>
+                            <li><a href="html/contact.html" class="nav-link">Contact</a></li>
+                            <li><a href="html/booking.html" class="btn primary-btn">Book Table</a></li>
+                        </div>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-left" data-aos="fade-left"> <!-- Animation der hero section via aos, initialiseiert in main.js-->
+                    <div class="hero-left-wrapper">
+                        <h1 class="hero-heading">The Flavour of Tradition</h1>
+                        <p class="hero-info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore labore iste! Iusto obcaecati ratione facilis incidunt architecto, ex, eos nisi magni ad.
+                        </p>
+                        <div class="button-wrapper">
+                            <a href="#" class="btn primary-btn">Explore Menu</a>
+                            <a href="#" class="btn">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right" data-aos="fade-right"> <!-- Animation der hero section via aos, initialiseiert in main.js-->
+                    <div class="hero-imgWrapper">
+                        <img src="images/heroImg.png" alt="food image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Info Section --> <!-- Store Info Section --> <!-- Store Info Section --> <!-- Store Info Section --> <!-- Store Info Section -->
+    <section id="storeInfo" data-aos="fade-up"> <!-- Animation der store info section via aos, initialiseiert in main.js-->
+        <div class="container">
+            <div class="storeInfo-wrapper">
+                <div class="storeInfo-item">
+                    <div class="storeInfo-icon"><img src="images/wall-clock-icon.svg" alt="icon"></div>
+                    <p class="storeInfo-text">Opening Hours</p>
+                    <h3 class="storeInfo-title">10AM -7PM</h3>
+                </div>
+                <div class="storeInfo-item">
+                    <div class="storeInfo-icon"><img src="images/address-icon.svg" alt="icon"></div>
+                    <p class="storeInfo-text">Address</p>
+                    <h3 class="storeInfo-title">Bahnhofstrasse 17<br>5610 Wohlen</h3>
+                </div>
+                <div class="storeInfo-item">
+                    <div class="storeInfo-icon"><img src="images/phone-icon.svg" alt="icon"></div>
+                    <p class="storeInfo-text">Call us now!</p>
+                    <h3 class="storeInfo-title">+41 56 123 45 56</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Specials Section  --><!-- Our Specials Section  --><!-- Our Specials Section  --><!-- Our Specials Section  -->
+    <section id="ourSpecials" data-aos="fade-up"> <!-- Animation der our specials section via aos, initialiseiert in main.js-->
+        <div class="container">
+            <div class="ourSpecials-wrapper">
+                <div class="ourSpecials-left">
+                    <div class="ourSpecials-item">
+                        <div class="ourSpecials-item-img"><img src="images/food-3.png" alt="food"></div>
+                        <h2 class="ourSpecials-item-title">Sweet Potato Fries Bowl</h2>
+                        <h3 class="ourSpecials-item-price">$18</h3>
+                        <div class="ourSpecials-item-stars"><img src="images/3star.png" alt="stars"></div>
+                        <p class="ourSpecials-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ut sequi placeat sint, repudiandae obcaecati ipsam distinctio nemo dicta tempore neque, consequuntur, commodi saepe! Velit cupiditate sunt.</p>
+                    </div>
+                    <div class="ourSpecials-item">
+                        <div class="ourSpecials-item-img"><img src="images/food-3.png" alt="food"></div>
+                        <h2 class="ourSpecials-item-title">Sweet Potato Fries Bowl</h2>
+                        <h3 class="ourSpecials-item-price">$18</h3>
+                        <div class="ourSpecials-item-stars"><img src="images/3star.png" alt="stars"></div>
+                        <p class="ourSpecials-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ut sequi placeat sint, repudiandae obcaecati ipsam distinctio nemo dicta tempore neque, consequuntur, commodi saepe! Velit cupiditate sunt.</p>
+                    </div>
+                </div>
+                <div class="ourSpecials-right">
+                    <h2 class="ourSpecials-title">Our Specials</h2>
+                    <p class="ourSpecials-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dicta quos optio rem, molestias exercitationem, iure repellendus maiores dolores fugit.</p>
+                    <a href="html/booking.html" class="btn primary-btn">Book Table</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes --><!-- Top Dishes -->
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid-title">Top Dishes</h2>
+            <div class="dishGrid-wrapper">
+                <div class="dishGrid-item">
+                    <div class="dishGrid-item-img"><img src="images/food-1.png" alt="food img"></div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">Vegan Salad Bowl</h3>
+                        <h3 class="dishGrid-item-price">$13</h3>
+                        <div class="dishGrid-item-stars"><img src="images/3star.png" alt="3 stars"></div>
+
+                    </div>
+                </div>
+                <div class="dishGrid-item">
+                    <div class="dishGrid-item-img"><img src="images/food-1.png" alt="food img"></div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">Vegan Salad Bowl</h3>
+                        <h3 class="dishGrid-item-price">$13</h3>
+                        <div class="dishGrid-item-stars"><img src="images/3star.png" alt="3 stars"></div>
+                        
+                    </div>
+                </div><div class="dishGrid-item">
+                    <div class="dishGrid-item-img"><img src="images/food-1.png" alt="food img"></div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">Vegan Salad Bowl</h3>
+                        <h3 class="dishGrid-item-price">$13</h3>
+                        <div class="dishGrid-item-stars"><img src="images/3star.png" alt="3 stars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discount Section --><!-- Discount Section --><!-- Discount Section --><!-- Discount Section --><!-- Discount Section -->
+    <section id="discount" data-aos="fade-up">
+        <div class="container">
+            <div class="discount-wrapper">
+                <div class="discount-images">
+                    <div class="discount-img1"><img src="images/food-5.png" alt="food img"></div>
+                    <div class="discount-img2"><img src="images/food-4.png" alt="food img"></div>
+                    <div class="discount-img3"><img src="images/food-3.png" alt="food img"></div>
+                </div>
+                <div class="discount-info">
+                    <h3 class="discount-text">20% OFF</h3>
+                    <h3 class="discount-title">Demo dish for discount</h3>
+                    <h3 class="discount-price">
+                        <span class="discount-oldPrice">$45</span>
+                        <span class="discount-newPrice">$35</span>
+                    </h3>
+                    <div class="discount-stars"><img src="images/3star.png" alt="stars"></div>
+                    <a href="html/booking.html" class="btn primary-btn">Book Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section --><!-- Events Section --><!-- Events Section --><!-- Events Section --><!-- Events Section --><!-- Events Section -->
+    <section id="eventsMedia" data-aos="fade-up">
+        <div class="container">
+            <div class="eventsMedia-wrapper">
+                <div class="eventsMedia-1">
+                    <img src="images/eventsMedia1.png" alt="events">
+                    <a href="#" class="eventsMedia-1-playButton"><img src="images/playIcon.svg" alt="playbutton"></a>
+                </div>
+                <div class="eventsMedia-2"><img src="images/eventsMedia2.png" alt="events"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Events Info Section --><!-- Events Info Section --><!-- Events Info Section --><!-- Events Info Section --><!-- Events Info Section -->
+    <section id="eventsInfo" data-aos="fade-up">
+        <div class="container">
+            <div class="eventsInfo-wrapper">
+                <div class="eventsInfo-left">
+                    <div class="eventsInfo-item">
+                        <div class="eventsInfo-item-img"><img src="images/event-corporate.png" alt="events"></div>
+                        <div class="eventsInfo-item-info">
+                            <h2 class="eventsInfo-item-title">Corporate Events</h2>
+                            <p class="eventsInfo-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt voluptas delectus!</p>
+                        </div>
+                    </div>
+                    <div class="eventsInfo-item">
+                        <div class="eventsInfo-item-img"><img src="images/event-weedings.png" alt="events"></div>
+                        <div class="eventsInfo-item-info">
+                            <h2 class="eventsInfo-item-title">Wedding Events</h2>
+                            <p class="eventsInfo-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt voluptas delectus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventsInfo-right">
+                    <h2 class="eventsInfo-title">Book for Events</h2>
+                    <p class="eventsInfo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis at quibusdam ratione?</p>
+                    <a href="html/booking.html" class="btn primary-btn">Contact Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why us? Section --><!-- Why us? Section --><!-- Why us? Section --><!-- Why us? Section --><!-- Why us? Section --><!-- Why us? Section -->
+    <section id="whyUs">
+        <div class="container">
+            <div class="whyUs-wrapper">
+                <div class="whyUs-left" data-aos="fade-right">
+                    <h2 class="whyUs-title">Why choose our food</h2>
+                    <p class="whyUs-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto ducimus adipisci voluptatum porro libero hic ut tempora quas modi ratione facere, autem saepe debitis odit deserunt non nemo veritatis.</p>
+                </div>
+                <div class="whyUs-right" data-aos="fade-left">
+                    <div class="whyUs-items-wrapper">
+                        <div class="whyUs-item">
+                            <div class="whyUs-item-icon"><img src="images/whyUs-icon1.svg" alt="quality food"></div>
+                            <p class="whyUs-item-text">Quality Food</p>
+                        </div>
+                        <div class="whyUs-item">
+                            <div class="whyUs-item-icon"><img src="images/whyUs-icon2.svg" alt="quality food"></div>
+                            <p class="whyUs-item-text">Classical Taste</p>
+                        </div><div class="whyUs-item">
+                            <div class="whyUs-item-icon"><img src="images/whyUs-icon3.svg" alt="quality food"></div>
+                            <p class="whyUs-item-text">Skilled Chef</p>
+                        </div><div class="whyUs-item">
+                            <div class="whyUs-item-icon"><img src="images/whyUs-icon4.svg" alt="quality food"></div>
+                            <p class="whyUs-item-text">BEst Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonial Section --><!-- Testimonial Section --><!-- Testimonial Section --><!-- Testimonial Section --><!-- Testimonial Section -->
+    <section id="testimonial" data-aos="fade-up">
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <h2 class="testimonial-title">What our customers say</h2>
+                <div class="testimonial-items-wrapper">
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-img"><img src="images/testimonial_img1.png" alt=""></div>
+                        <div class="testimonial-item-info">
+                            <h3 class="testimonial-item-name">Claire Anybody</h3>
+                            <div class="testimonial-item-stars"><img src="images/3star.png" alt="stars"></div>
+                            <p class="testimonial-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, eos! Ex, dolorem maxime. Ratione soluta odio illo tempore maxime suscipit at quas veniam? Molestias reprehenderit libero ipsam dolorem!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-img"><img src="images/testimonial_img1.png" alt=""></div>
+                        <div class="testimonial-item-info">
+                            <h3 class="testimonial-item-name">Claire Anybody</h3>
+                            <div class="testimonial-item-stars"><img src="images/3star.png" alt="stars"></div>
+                            <p class="testimonial-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, eos! Ex, dolorem maxime. Ratione soluta odio illo tempore maxime suscipit at quas veniam? Molestias reprehenderit libero ipsam dolorem!</p>
+                        </div>
+                    </div><div class="testimonial-item">
+                        <div class="testimonial-item-img"><img src="images/testimonial_img1.png" alt=""></div>
+                        <div class="testimonial-item-info">
+                            <h3 class="testimonial-item-name">Claire Anybody</h3>
+                            <div class="testimonial-item-stars"><img src="images/3star.png" alt="stars"></div>
+                            <p class="testimonial-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, eos! Ex, dolorem maxime. Ratione soluta odio illo tempore maxime suscipit at quas veniam? Molestias reprehenderit libero ipsam dolorem!</p>
+                        </div>
+                    </div><div class="testimonial-item">
+                        <div class="testimonial-item-img"><img src="images/testimonial_img1.png" alt=""></div>
+                        <div class="testimonial-item-info">
+                            <h3 class="testimonial-item-name">Claire Anybody</h3>
+                            <div class="testimonial-item-stars"><img src="images/3star.png" alt="stars"></div>
+                            <p class="testimonial-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, eos! Ex, dolorem maxime. Ratione soluta odio illo tempore maxime suscipit at quas veniam? Molestias reprehenderit libero ipsam dolorem!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section --><!-- Newsletter Section --><!-- Newsletter Section --><!-- Newsletter Section --><!-- Newsletter Section --><!-- Newsletter Section -->
+    <section id="newsletter" data-aos="fade-up">
+        <div class="container">
+            <div class="newsletter-wrapper">
+                <div class="newsletter-info">
+                    <h3 class="newsletter-title">Join Newsletter</h3>
+                    <p class="newsletter-text">Get notified with the latest news and recent offers from the "FaKe Take-Away"</p>
+                </div>
+                <div class="newsletter-form">
+                    <form>
+                        <label for="email">
+                            <input type="email" placeholder="Your email adress">
+                        </label>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-col1">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="logo">
+                    </div>
+                    <p class="footer-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis.
+                    </p>
+                    <div class="footer-socials">
+                        <h4 class="footer-socials-title">Follow us</h4>
+                        <ol>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" /></svg></a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <h3 class="footer-text-title">Links</h3>
+                    <ol class="footer-text">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="html/menu.html">Menu</a></li>
+                        <li><a href="html/booking.html">Book Table</a></li>
+                        <li><a href="html/about.html">About us</a></li>
+                        <li><a href="html/contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ol>
+                </div>
+                <div class="footer-col3">
+                    <h3 class="footer-text-title">Support</h3>
+                    <ol class="footer-text">
+                        <li><a href="html/contact.html">Contact</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ol>
+                </div>
+                <div class="footer-col4">
+                    <h3 class="footer-text-title">Contact</h3>
+                    <ol class="footer-text">
+                        <li><a href="tel:+41788989827">+41 78 898 98 27</a></li>
+                        <li><a href="mailto: falk.kellermann@gmx.ch">falk.kellermann@gmx.ch</a></li>
+                        <li><a href="#">Bahnhofstrasse 17<br>5610 Wohlen<br>Schweiz</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright-text">
+                © Copyright 2022 Falk kellermann | All Rights reserved
+            </p>
+        </div>
+    </div>
+  
+
+    <!-- AOS (Animate On Scroll) Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Custom Script -->
+    <script src="main.js"></script>
+</body>
+</html>
